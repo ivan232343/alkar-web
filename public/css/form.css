@@ -1,0 +1,63 @@
+.__row_flex ,._flex {    display: flex;}
+._warp {    flex-wrap: wrap;}
+._nowarp {    flex-wrap: nowrap;}
+._flex._direction-col{ flex-direction: column;}
+._flex._aling-center{    align-items: center;}
+._flex._aling-start{    align-items: flex-start;}
+._flex._content-s-around {    justify-content: space-around;}
+._grid{display: grid;}
+
+.content-box .item {    padding: .5rem 1rem;}
+input, select {   padding: .3rem .7rem;}
+
+#alkar-web ._grid .__col__:last-child {
+    grid-column: -4 / -1;
+}
+#alkar-web ._grid {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: .5rem;
+}
+#alkar-web ._grid .__col__:nth-child(2) {
+    grid-column: 2 / -1;
+}
+.radio_btn {
+    padding: 0 .45rem;
+}
+.content-box {
+    width: 90%;
+    margin: auto;
+}
+.content {
+    width: 10rem;
+    padding: 0.6rem 1.5rem;
+    height: 7rem;
+}
+._porsent {
+    -webkit-writing-mode: vertical-rl;
+    font-size: x-large;
+}
+.__tas_GOD {
+    background: green;
+    padding: 0.75rem 0.25rem;
+    color: white;
+}
+.__advertencia {
+    padding: 0.75rem 0.25rem;
+    color: #333333;
+    background: #d4c542;
+}
+.__peligro {
+    background: red;
+    padding: 0.75rem 0.25rem;
+    color: white;
+    font-weight: bolder;
+}
+
+._info {
+    padding: 0 0 0 0.5rem;
+}
+.item.child {
+    border-radius: 1rem;
+}
